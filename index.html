@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Future Freelancer&lt!--Aya--&gt</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list">
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>My Portfolio</h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Section 1"  class="mysection">
+      
+     
+      <div class="landing__container" >
+        <h2>About me</h2>
+        <div>
+          <p >I've graduated from Faculty of Engineering, Alexandria University.
+         with a bachelor degree in Communication and Electronics Engineering.
+         I also have a good combination of soft skills and technical skills.
+          </p> 
+          <p>
+          as for my personal skills,<br>
+          I'm highly motivated Person who focuses on the little details,I'm also a very flexible person,I can handle responsibilities and deadlines very well.
+          </p>
+          <p>
+          as for my Technical skills,<br>
+          I've good programming skills and I'm passionate about learning new technologies in that field and I'm also a good self-learner 
+          I also studied the testing process so I've good understanding of testing methodologies and techniques which help me test my own work in an early stage of the projects which help saving alot of time.
+          </p>
+        </div>
+        
+      </div>
+    </section>
+    <section id="section2" data-nav="Section 2" class="mysection">
+      <div class="landing__container">
+        <h2>My Skills</h2>
+        <p>
+          I've good programming skills and I'm passionate about learning new technologies in that field and I'm also a good self-learner 
+          as I've started learning some back-end and front-end technologies online like ( HTML/HTML5 - CSS/CSS3 - JavaScript - PHP - MySQL5)
+        </p>
+        <p>Understanding of test process and test levels, Understanding of Agility and Agile framework, Test Suites and Test Cases writing, Bug Reporting and using software management tools like Jira</p>
+      </div>
+    </section>
+    <section id="section3" data-nav="Section 3" class="mysection">
+      <div class="landing__container">
+        <h2>My Projects</h2>
+        <div class="flexContainer">
+         <video class="box" width="320" height="250" controls style="display: inline">
+          <source  src="vid/OneMillionLab.mp4" type="video/mp4">
+        </video>
+        <video class="box"  width="350" height="250" controls style="display: inline">
+          <source src="vid/ItraxFinalProject.mp4" type="video/mp4">
+        </video>
+        <video class="box"  width="350" height="250" controls style="display: inline">
+          <source  src="vid/fwdpro.mp4" type="video/mp4">
+        </video>
+      </div>
+      </div>
+    </section>
+    <section id="section4" data-nav="Section 4" class="mysection">
+      <div class="landing__container">
+        <h2>Services</h2>
+        <p>imply designing, building, integrating, scaling and maintaining dynamic software solutions that work via intranet or internet.
+          A full-stack web development freelancer delivers highly available, functional and visually engaging web products and both platform-based and custom web solutions for enterprises.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <p>&copy First Responsive Project</p>
+  </footer>
+<script src="js/app.js"></script>
+</body>
+</html>
